@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache (stage9 benchmark)
+*.sqlite
+*.faiss
+*.pkl
+*.meta.json
+/tmp/rag_bench_cache.sqlite
